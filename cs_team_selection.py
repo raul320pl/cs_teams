@@ -76,6 +76,8 @@ if __name__ == "__main__":
     teams, config, players = read_data("data.json")
     if players:
         print("Players:")
+        players = list(players)
+        players.sort(key=lambda x: -x.rank())
         for p in players:
             print(" - {}".format(p))
     print()
