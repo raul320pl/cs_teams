@@ -32,7 +32,7 @@ class Team:
         return hash(self.name)
 
     def __str__(self):
-        return "Team {0} {1: 03.2f} {2}".format(self.name, self.rank(), ", ".join([str(x) for x in self.players]))
+        return "Team {0} {1: 03.2f} {2}".format(self.name, self.rank(), ", ".join([str(x.name) for x in self.players]))
 
 
 def prepare_teams(players):    
