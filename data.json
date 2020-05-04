@@ -1,0 +1,56 @@
+{
+ "config":{
+	"show_teams" : 2,
+	"comm": 0.5,
+	"precision": 1.0,
+	"reflex": 1.0,
+	"team_play": 1.0
+},
+ "players":[	
+  {
+	"name" : "Yego",
+	"skills": {
+		"comm" : 10,
+		"precision" : 10,
+		"tactics" : 10,
+		"relyability" : 10,
+		"reflex" : 10,
+		"team_play" :10
+		}
+	},	
+  {
+	"name" : "Himmlerek",
+	"skills": {
+		"comm" : 7,
+		"precision" : 8,
+		"tactics" : 9,
+		"relyability" : 8,
+		"reflex" : 10,
+		"team_play" :10
+		}
+	},
+	{
+	"name" : "Powolniak",
+	"skills": {
+		"comm" : 2,
+		"precision" : 4,
+		"tactics" : 4,
+		"relyability" : 5,
+		"reflex" : 3,
+		"team_play" :8
+		}
+	},
+	{
+	"name" : "Kuba",
+	"skills": {
+		"comm" : 8,
+		"precision" : 6,
+		"tactics" : 4,
+		"relyability" : 5,
+		"reflex" : 6,
+		"team_play" :8
+		}
+	}		
+	
+]
+}
