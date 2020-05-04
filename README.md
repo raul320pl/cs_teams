@@ -1,13 +1,30 @@
 # cs_teams
 Code for evaluate player skills and form teams for CounterStrike players.
 
-1. Put player names into player set and evaluate attributes
-```
-players = {
-        Player("Powolniak",skills(comm=4, precision=5, tactics=6, relyability=8, reflex=8 ,team_play=1)),
-        }
-```        
-2. Check skill weights in `skills()` funnction
+1. Put data into data.json file:
 
-3. Run code and chose team proposals
+```
+{
+ "config":{
+	"show_teams" : 2,
+	"comm": 0.5,	
+	"maps":0.5,
+	"team_play": 6.0,
+	"skill": 1.0	
+},
+ "players":[	
+{
+	"name" : "Yego",
+	"skills": {
+		"comm" : 9,
+		"skill" : 9,
+		"maps" : 8,		
+		"team_play" :10
+		}
+}		
+]
+}
+```        
+
+2. Run code and chose team proposals
 
